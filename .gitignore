@@ -1,0 +1,14 @@
+*.aux
+*.bak
+*.bbl
+*.blg
+*.glo
+*.glsdefs
+*.ist
+*.log
+*.new
+*.run.xml
+*.synctex
+*.synctex.gz
+*.toc
+*-blx.bib

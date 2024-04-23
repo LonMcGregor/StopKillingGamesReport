@@ -1,0 +1,53 @@
+\documentclass{report}
+
+\usepackage{hyperref}
+\usepackage{xurl}
+\usepackage{bookmark}
+\usepackage{todonotes}
+\newcommand{\lm}[1]{\todo[inline,color=blue!20]{{\small LM\@: #1}}}
+\newcommand{\cn}{\todo[color=green!20]{\small{Citation Needed}}}
+
+%handle glossary terms
+\include{glossary}
+
+\usepackage[backend=bibtex,style=trad-abbrv,backref=true,sorting=anyt]{biblatex}
+\bibliography{skgrefs}
+
+% for wide tables
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{pdflscape}
+
+% double spaced sentences
+\nonfrenchspacing
+
+% page numbering should start on 1st page of introduction
+\pagenumbering{gobble}
+
+\title{The Stop Killing Games Report}
+\author{StopKillingGames.com}
+% \date{December 15, 2012}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\cleardoublepage%
+\pagenumbering{arabic}
+
+% -- Table of Contents --
+% (would go here)
+
+% -- Import content here
+\input{intro}
+\input{evidence}
+\input{arguments}
+\input{action}
+
+% glossary
+\printnoidxglossary[sort=word]
+
+% -- Bibliography (APA style)
+\printbibliography[heading=bibintoc,title=References]{}
+
+\end{document}
