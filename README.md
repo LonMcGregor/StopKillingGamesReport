@@ -14,6 +14,7 @@ A central document will also help as part of campaigning and lobbying for change
 Less important TODOs:
 * Make a nicer front page
 * Grabics / tables
+* Normalise all language and terms
 
 # Contributing
 If there's something you want to add, you can pull the repository, make a change, and submit a PR.
