@@ -15,6 +15,7 @@ Less important TODOs:
 * Make a nicer front page
 * Grabics / tables
 * Normalise all language and terms
+* Decide what should be references and what should be footnotes
 
 # Contributing
 If there's something you want to add, you can pull the repository, make a change, and submit a PR.
