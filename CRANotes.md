@@ -24,7 +24,7 @@ So if a game is free, and a purchase is made, you could argue that the free game
 34.1
 > Every contract to supply digital content is to be treated as including a term that the quality of the digital content is satisfactory.
 
-i.e. every sale of a game implies that the game as delivered must be satisfactory. A game suddenyl dying is obviously unsatisfactory
+i.e. every sale of a game implies that the game as delivered must be satisfactory. A game suddenly dying is obviously unsatisfactory
 
 34.2
 > The quality of digital content is satisfactory if it meets the standard that a reasonable person would consider satisfactory, taking account of—
@@ -70,7 +70,7 @@ Could players expecting to play a game forever be an implicit request? I think s
 Publishers have to be up front if they want to kill the game, or make a change that makes it subject to dying.
 Players would have to mutually agree to that for it to be allowed
 
-## 40 Modifications by the traderor third party
+## 40 Modifications by the trader or third party
 40.1
 > Where under a contract a trader supplies digital content to a consumer subject to the right of the trader or a third party to modify the digital content, the following provisions apply in relation to the digital content as modified as they apply in relation to the digital content as supplied under the contract—
 > (a)section 34 (quality);
@@ -142,8 +142,8 @@ Either way, if a repair challenge is successful, someone has to take responsibil
 
 This is a tricky point. 43.3.a means that a publisher could argue making a game work offline is impossible. But as we have examples showing it is possible, that's not a valid argument
 43.3.b means that the publisher can choose repair or replacement.
-In practice this doesn't offer any meaningful distinction. Replacing the digital files wouldn't suddenyl make them work.
-except in the overwatch case where a replacement sequel game is made, and the publisher may push people to that.
+In practice this doesn't offer any meaningful distinction. Replacing the digital files wouldn't suddenly make them work.
+except in the Overwatch case where a replacement sequel game is made, and the publisher may push people to that.
 Then it becomes a question of whether that is actually a valid replacement.
 
 43.4
@@ -158,7 +158,7 @@ Then it becomes a question of whether that is actually a valid replacement.
 Under 43.4.b and c and 43.5 you can say that replacement is not adequate for the consumer, and that repair should be used instead regardless of cost
 Replacing a broken game with a different one that works would not conform to the original description, and would most likely inconvenience the consumer
 But again, this would depend on exactly what the replacement given was.
-Under this, you could say that repair in the form of offering a server emulator / patchfile / some other documented configuration might offer minor inconvenience to the consumer,
+Under this, you could say that repair in the form of offering a server emulator / patch file / some other documented configuration might offer minor inconvenience to the consumer,
 but compared to losing access to the game entirely, it is not a significant inconvenience
 
 43.6
@@ -166,7 +166,7 @@ but compared to losing access to the game entirely, it is not a significant inco
 43.7 
 > A consumer who requires or agrees to the replacement (repeats)
 
-Both the pplayer and the publisher need to agree on a reasonable timeframe to repair.
+Both the player and the publisher need to agree on a reasonable time frame to repair.
 If the publisher knows in advance when a game will be killed, they should be able to plan for this in advance.
 
 43.8 
@@ -217,7 +217,7 @@ This essentially says that any EULA that absolved the publisher of responsibilit
 > (c)allow a trader to put a person at a disadvantage as a result of pursuing such a right or remedy, or
 > (d)exclude or restrict rules of evidence or procedure.
 
-This says that any EULA that prevents a player from making a damages claim orprevents them from seeking a repair is invalid
+This says that any EULA that prevents a player from making a damages claim or prevents them from seeking a repair is invalid
 
 
 TODO:
