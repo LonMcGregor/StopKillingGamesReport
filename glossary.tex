@@ -3,29 +3,175 @@
 \usepackage[toc]{glossaries}
 \makenoidxglossaries%
 
-% Videogame
-% DLC
-% bug
-% Free to play
-% License
-% Server
-% Client
-% singleplayer
-% multiplayer / competitive / co-op
-% leaderboard
-% offline
-% online
-% local
-% game files / resources / assets
-% matchmaking
-% DRM / Anti-Cheat
-% patch / update
-% unlocks / game save / progression
-% ported / porting
-% source code / open source / closed source
+\newglossaryentry{videogame}{
+    name={videogame},
+    description={A game played on a computer system}
+}
 
+\newglossaryentry{dlc}{
+    name={DLC},
+    description={Downloadable Content.
+    Some games offer additional game content available to download after the game is published.
+    This could be paid for or free content.
+    Some may be available at launch time, such as game soundtracks, and other content like new game modes may be made available much later.}
+}
+
+\newglossaryentry{}{
+    name={},
+    description={}
+}
+
+\newglossaryentry{asset}{
+    name={asset},
+    description={A game asset is a digital file which is necessary for the game to function.
+    It could be a media file such as a sound effect or graphic.
+    It could be a piece of code that implements functionality in the game.}
+}
 \newglossaryentry{streamedassets}{
     name={streamed assets},
     description={Some games assets are too large to fit on the player's device, so need to be streamed from a server.
-    Microsoft Flight simulator has `petabytes' of data.~\cite{microsoft-flight-offline-2021}}
+    Microsoft Flight simulator has `petabytes'~\cite{microsoft-flight-offline-2021} of data, which is too large to store on one machine.}
+}
+
+\newglossaryentry{matchmaking}{
+    name={matchmaking},
+    description={In a multiplayer game, the game will be responsible for matching players together.
+    This could be randomly, based on player ability level, based on their geographic location, or some other factor.
+    In a multiplayer game without matchmaking players need to manually connect with another player,
+    for example by exchanging connection details over email or social media.}
+}
+
+\newglossaryentry{drm}{
+    name={DRM},
+    description={Digital Rights Management is a form of technology that allows the publisher or manufacturer to impose their own rules or limitations on how a player can interact with their game.
+    DRM is often considered a means of imposing restrictions rather than offering rights\cn, and at times has been linked to game breakage\cn.
+    It is also present in other digital media such as ebooks\cn or hardware such as printers\cn.}
+}
+
+\newglossaryentry{anticheat}{
+    name={anti-cheat software},
+    description={Anti-cheat software is a particular kind of DRM intended for use in competitive multiplayer games, to ensure that players do not cheat.
+    It usually exists as an application separate to the game itself.
+    Some games offer players a choice whether to play with it on or off\cite{halo-anticheat-2019}.}
+}
+
+\newglossaryentry{unlock}{
+    name={unlock},
+    description={Some parts of a game might be ``locked'' and unavailable when a player first starts playing a game.
+    As the player progresses, parts may be unlocked, for example by spending points earned in the game to unlock a new playable character.
+    Some games allow the player to spend real money to unlock things.}
+}
+
+\newglossaryentry{save}{
+    name={save},
+    description={A game save is a description of the state of the game, and the player's progress in games which have a long duration.
+    A save may also record things like \glspl{unlock}.
+    If the save file is lost, the player will have to start from scratch.
+    Saves may be \gls{local} or synchronised \gls{online} between multiple machines.}
+}
+
+\newglossaryentry{source}{
+    name={source},
+    description={Source code is the original text written by a game developer that gets turned into machine code which then runs the game.
+    A game can be open or closed source, depending on whether the source code is publicly available or not.}
+}
+
+\newglossaryentry{local}{
+    name={local},
+    description={A local game is one that can be played entirely on one player's machine without an outside internet connection,
+    or on multiple player's machines attached to the same network,
+    e.g. a WiFi network in one player's house.}
+}
+
+\newglossaryentry{online-only}{
+    name={online-only},
+    description={An online-only game is a game where an internet connection is mandatory.
+    If the internet connection is interrupted or poor, the game is unplayable.
+    There may be technical reasons why a game has to be online-only,
+    or a game may be online-only purely at the choice of the publisher.
+    Both single player and multiplayer games can be online-only.}
+}
+
+\newglossaryentry{offline}{
+    name={offline},
+    description={An offline game is a game which requires no networking at all to function.
+    Some online games offer configuration options to allow players to play them offline.}
+}
+
+\newglossaryentry{online}{
+    name={online},
+    description={An online game is one which requires internet connectivity to function.
+    An online game may need an internet connection for parts of the game.
+    If the online connection is missing, those parts of the game may not function correctly.
+    Contrast with online-only.}
+}
+
+\newglossaryentry{singleplayer}{
+    name={singleplayer},
+    description={A single player game is intended for one player to play alone.
+    Though it may have features such as score leaderboards which allow limited interaction with other players.
+    A single game might have both a singleplayer and multiplayer part.}
+}
+
+\newglossaryentry{multiplayer}{
+    name={multiplayer},
+    description={A multiplayer game is intended for multiple players to play together.
+    A single game might have both a singleplayer and multiplayer part.
+    This could be a \gls{local} or \gls{online} game.
+    See also \glc{coop} and \gls{competitive}.}
+}
+
+\newglossaryentry{coop}{
+    name={cooperative},
+    description={A cooperative game is a multiplayer game in which two or more players work together to progress through the game.
+    For example, players working together to solve a puzzle.}
+}
+
+\newglossaryentry{competitive}{
+    name={competitive},
+    description={A competitive game is a multiplayer game in which two or more players (alone or in teams) challenge each other, with one party eventually ``winning'' the game.
+    For example, a team of players trying to score goals against another team.}
+}
+
+\newglossaryentry{client}{
+    name={client},
+    description={A client is an application that exists on a player's machine which does some functionality on the player machine, but which may connects to other machines on the internet.
+    A client may connect to a server.
+    Functionality could include drawing graphics onto the player's machine's screen or handling input from a gamepad.}
+}
+
+\newglossaryentry{server}{
+    name={server},
+    description={A server is a machine that runs functionality separate to a client.
+    Usually many different clients will connect to it at once.
+    It may be run by a player, publisher or a third party.
+    It can run functionality, and send the results back to a player's client.
+    Functionality could include synchronising the movements of multiple players.}
+}
+
+\newglossaryentry{eula}{
+    name={EULA},
+    description={End User License Agreement. Some games require a user to agree to a license text before they can play the game.
+    Accepting or declining the license usually takes place after purchase.
+    These documents may or may not be legally binding.}
+}
+
+\newglossaryentry{f2p}{
+    name={free to play},
+    description={Some games may be sold with an up front cost. Others are made available entirely for free.
+    Some games are made available for free, but with some content available only to players that purchase it,
+    these are called ``free to play''.}
+}
+
+\newglossaryentry{update}{
+    name={update},
+    description={A change made to add, remove or modify some behaviour or content in the game or fix a bug.
+    Players may or may not have a choice in whether to accept updates in games.
+    Publishers can deliver updates to owners of the game over the internet.}
+}
+
+\newglossaryentry{bug}{
+    name={bug},
+    description={A fault in the design of a videogame or other technology that causes it to not function correctly.
+    Could be fixed by an update.}
 }
