@@ -12,6 +12,9 @@ A central document will also help as part of campaigning and lobbying for change
 * Add references and citations to back up claims
 * Include a glossary to explain technical terms to a lay audience
 * Contact game developers / publishers who have released playable versions to ask for opinions
+* Update the killed games table
+* Summarise various legal documents arguments
+    * CRA
 
 Less important TODOs:
 * Make a nicer front page
