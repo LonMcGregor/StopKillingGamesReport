@@ -12,6 +12,9 @@ A central document will also help as part of campaigning and lobbying for change
 * Add references and citations to back up claims
 * Include a glossary to explain technical terms to a lay audience
 * Contact game developers / publishers who have released playable versions to ask for opinions
+    * RQS:
+    * What was the motivation for shutting the game down in a playable way?
+    * What costs were associated with doing this?
 * Update the killed games table
 * Summarise various legal documents arguments
     * CRA

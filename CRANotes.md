@@ -218,8 +218,3 @@ This essentially says that any EULA that absolved the publisher of responsibilit
 > (d)exclude or restrict rules of evidence or procedure.
 
 This says that any EULA that prevents a player from making a damages claim or prevents them from seeking a repair is invalid
-
-
-TODO:
-* Evaluate Ch 4 Services
-* Part 2 Unfair terms
