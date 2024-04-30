@@ -16,6 +16,8 @@ A central document will also help as part of campaigning and lobbying for change
     * What was the motivation for shutting the game down in a playable way?
     * What costs were associated with doing this?
 * Update the killed games table
+    * Import all the data from the existing spreadsheets
+    * Check for more recent game examples
 * Summarise various legal documents arguments
     * CRA
 
