@@ -27,6 +27,9 @@ Less important TODOs:
 * Normalise all language and terms
 * Decide what should be references and what should be footnotes
 
+Other RQs:
+* What is the impact on players who are lonely, who play videogames as a means of coping or making meaningful connections, when a game is shut down?
+
 # Contributing
 If there's something you want to add, you can pull the repository, make a change, and submit a PR.
 If you prefer to raise a GitHub issue to discuss something, please do that too.
