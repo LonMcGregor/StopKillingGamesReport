@@ -17,5 +17,5 @@ for file in *.html; do
   if [[ "$igp" && "$igp" != "No_microtransactions" ]]; then
     igp=",IGP"
   fi
-  echo \"$title\",\"$publisher\",\"$genre\",\"PC\",\"$money $igp\",\"$normdate\",,Unplayable,,,
+  echo \"$title\",\"$publisher\",\"$genre\",\"PC\",\"$money $igp\",\"$normdate\",,Unplayable,,,Imported from PCGW
 done
